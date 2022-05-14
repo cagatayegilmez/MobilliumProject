@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		525B6ADE282FEE400097E68F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6ADD282FEE400097E68F /* AppDelegate.swift */; };
 		525B6AE0282FEE400097E68F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6ADF282FEE400097E68F /* SceneDelegate.swift */; };
-		525B6AE2282FEE400097E68F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6AE1282FEE400097E68F /* ViewController.swift */; };
 		525B6AE5282FEE400097E68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525B6AE3282FEE400097E68F /* Main.storyboard */; };
 		525B6AE7282FEE410097E68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525B6AE6282FEE410097E68F /* Assets.xcassets */; };
 		525B6AEA282FEE410097E68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525B6AE8282FEE410097E68F /* LaunchScreen.storyboard */; };
 		525B6AF5282FEE410097E68F /* Mobillium_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6AF4282FEE410097E68F /* Mobillium_ProjectTests.swift */; };
 		525B6AFF282FEE410097E68F /* Mobillium_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6AFE282FEE410097E68F /* Mobillium_ProjectUITests.swift */; };
 		525B6B01282FEE410097E68F /* Mobillium_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B00282FEE410097E68F /* Mobillium_ProjectUITestsLaunchTests.swift */; };
+		525B6B11283024800097E68F /* ProjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B10283024800097E68F /* ProjectExtensions.swift */; };
+		525B6B15283027F10097E68F /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B14283027F10097E68F /* ApiRequest.swift */; };
+		525B6B17283028F20097E68F /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B16283028F20097E68F /* ServiceLayer.swift */; };
+		525B6B1A283044C00097E68F /* GetNowPlayingListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B19283044C00097E68F /* GetNowPlayingListRequest.swift */; };
+		525B6B1C283044E10097E68F /* GetUpcomingListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B1B283044E10097E68F /* GetUpcomingListRequest.swift */; };
+		525B6B1E283045010097E68F /* GetSearchResultsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B1D283045010097E68F /* GetSearchResultsRequest.swift */; };
+		525B6B20283045190097E68F /* GetMovieDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B1F283045190097E68F /* GetMovieDetailRequest.swift */; };
+		525B6B222830453A0097E68F /* GetSimilarMoviesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B212830453A0097E68F /* GetSimilarMoviesRequest.swift */; };
+		525B6B25283045C70097E68F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B24283045C70097E68F /* MovieModel.swift */; };
+		525B6B27283049A60097E68F /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B26283049A60097E68F /* MovieDetailModel.swift */; };
+		525B6B2928304BB20097E68F /* SimilarMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B2828304BB20097E68F /* SimilarMoviesModel.swift */; };
+		525B6B2B283053F20097E68F /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B2A283053F20097E68F /* SearchModel.swift */; };
 		5F254078E1ABA1F0062BE6A6 /* Pods_Mobillium_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD7C5C3C8D10D9134CC5B34 /* Pods_Mobillium_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +52,6 @@
 		525B6ADA282FEE400097E68F /* Mobillium Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobillium Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525B6ADD282FEE400097E68F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525B6ADF282FEE400097E68F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		525B6AE1282FEE400097E68F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		525B6AE4282FEE400097E68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		525B6AE6282FEE410097E68F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525B6AE9282FEE410097E68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		525B6AFA282FEE410097E68F /* Mobillium ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobillium ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525B6AFE282FEE410097E68F /* Mobillium_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillium_ProjectUITests.swift; sourceTree = "<group>"; };
 		525B6B00282FEE410097E68F /* Mobillium_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillium_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		525B6B10283024800097E68F /* ProjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectExtensions.swift; sourceTree = "<group>"; };
+		525B6B14283027F10097E68F /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		525B6B16283028F20097E68F /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		525B6B19283044C00097E68F /* GetNowPlayingListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNowPlayingListRequest.swift; sourceTree = "<group>"; };
+		525B6B1B283044E10097E68F /* GetUpcomingListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpcomingListRequest.swift; sourceTree = "<group>"; };
+		525B6B1D283045010097E68F /* GetSearchResultsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSearchResultsRequest.swift; sourceTree = "<group>"; };
+		525B6B1F283045190097E68F /* GetMovieDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieDetailRequest.swift; sourceTree = "<group>"; };
+		525B6B212830453A0097E68F /* GetSimilarMoviesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSimilarMoviesRequest.swift; sourceTree = "<group>"; };
+		525B6B24283045C70097E68F /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		525B6B26283049A60097E68F /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
+		525B6B2828304BB20097E68F /* SimilarMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarMoviesModel.swift; sourceTree = "<group>"; };
+		525B6B2A283053F20097E68F /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		5AD7C5C3C8D10D9134CC5B34 /* Pods_Mobillium_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobillium_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF75578C021CAA594FCD43D /* Pods-Mobillium Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillium Project.release.xcconfig"; path = "Target Support Files/Pods-Mobillium Project/Pods-Mobillium Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,11 +130,12 @@
 			children = (
 				525B6ADD282FEE400097E68F /* AppDelegate.swift */,
 				525B6ADF282FEE400097E68F /* SceneDelegate.swift */,
-				525B6AE1282FEE400097E68F /* ViewController.swift */,
 				525B6AE3282FEE400097E68F /* Main.storyboard */,
 				525B6AE6282FEE410097E68F /* Assets.xcassets */,
 				525B6AE8282FEE410097E68F /* LaunchScreen.storyboard */,
 				525B6AEB282FEE410097E68F /* Info.plist */,
+				525B6B12283026990097E68F /* API */,
+				525B6B0D283021DD0097E68F /* Extensions */,
 			);
 			path = "Mobillium Project";
 			sourceTree = "<group>";
@@ -134,6 +157,56 @@
 			path = "Mobillium ProjectUITests";
 			sourceTree = "<group>";
 		};
+		525B6B0D283021DD0097E68F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B10283024800097E68F /* ProjectExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		525B6B12283026990097E68F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B13283026A90097E68F /* ServiceLayer */,
+				525B6B18283041FE0097E68F /* Requests */,
+				525B6B232830456E0097E68F /* Responses */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		525B6B13283026A90097E68F /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B14283027F10097E68F /* ApiRequest.swift */,
+				525B6B16283028F20097E68F /* ServiceLayer.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		525B6B18283041FE0097E68F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B19283044C00097E68F /* GetNowPlayingListRequest.swift */,
+				525B6B1B283044E10097E68F /* GetUpcomingListRequest.swift */,
+				525B6B1D283045010097E68F /* GetSearchResultsRequest.swift */,
+				525B6B1F283045190097E68F /* GetMovieDetailRequest.swift */,
+				525B6B212830453A0097E68F /* GetSimilarMoviesRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		525B6B232830456E0097E68F /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B24283045C70097E68F /* MovieModel.swift */,
+				525B6B26283049A60097E68F /* MovieDetailModel.swift */,
+				525B6B2828304BB20097E68F /* SimilarMoviesModel.swift */,
+				525B6B2A283053F20097E68F /* SearchModel.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		5BA6E79AF9AEAC70AF036AE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +221,6 @@
 				1B2BFE3C1D85C9405D0D6566 /* Pods-Mobillium Project.debug.xcconfig */,
 				FDF75578C021CAA594FCD43D /* Pods-Mobillium Project.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,9 +399,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525B6AE2282FEE400097E68F /* ViewController.swift in Sources */,
+				525B6B25283045C70097E68F /* MovieModel.swift in Sources */,
+				525B6B2928304BB20097E68F /* SimilarMoviesModel.swift in Sources */,
+				525B6B27283049A60097E68F /* MovieDetailModel.swift in Sources */,
+				525B6B17283028F20097E68F /* ServiceLayer.swift in Sources */,
+				525B6B1E283045010097E68F /* GetSearchResultsRequest.swift in Sources */,
 				525B6ADE282FEE400097E68F /* AppDelegate.swift in Sources */,
+				525B6B222830453A0097E68F /* GetSimilarMoviesRequest.swift in Sources */,
+				525B6B11283024800097E68F /* ProjectExtensions.swift in Sources */,
+				525B6B15283027F10097E68F /* ApiRequest.swift in Sources */,
+				525B6B1A283044C00097E68F /* GetNowPlayingListRequest.swift in Sources */,
+				525B6B1C283044E10097E68F /* GetUpcomingListRequest.swift in Sources */,
+				525B6B2B283053F20097E68F /* SearchModel.swift in Sources */,
 				525B6AE0282FEE400097E68F /* SceneDelegate.swift in Sources */,
+				525B6B20283045190097E68F /* GetMovieDetailRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +588,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B2BFE3C1D85C9405D0D6566 /* Pods-Mobillium Project.debug.xcconfig */;
 			buildSettings = {
+				API_KEY = be8aa2dcfa861969c4fd52d356375ed4;
+				API_URL = "https://api.themoviedb.org/3/";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +618,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDF75578C021CAA594FCD43D /* Pods-Mobillium Project.release.xcconfig */;
 			buildSettings = {
+				API_KEY = be8aa2dcfa861969c4fd52d356375ed4;
+				API_URL = "https://api.themoviedb.org/3/";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

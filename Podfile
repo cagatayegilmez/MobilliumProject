@@ -4,6 +4,7 @@ use_frameworks!
 
 target ‘Mobillium Project’ do
     pod 'Kingfisher' 
-    pod 'NVActivityIndicatorView'
+    pod 'NVActivityIndicatorView/Extended'
     pod 'PullToRefresher'
+    pod 'SDWebImage'
 end
