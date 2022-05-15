@@ -18,6 +18,11 @@ struct GetUpcomingListRequest: APIRequest {
     var path: String { "movie/upcoming" }
     
     var queryParameters: [URLQueryItem] {
-        return [URLQueryItem.init(name: "api_key", value: Environment.apiKey)]
+        return [
+            URLQueryItem.init(name: "api_key", value: Environment.apiKey),
+            URLQueryItem.init(name: "page", value: "\(String(describing: page))")
+        ]
     }
+    
+    var page: Int!
 }

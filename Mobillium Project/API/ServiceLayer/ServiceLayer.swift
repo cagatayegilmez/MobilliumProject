@@ -16,7 +16,7 @@ final class ServiceLayer {
         print("⭕️⭕️⭕️⭕️⭕️⭕️⭕️⭕️⭕️⭕️⭕️")
         let dataTask = session.dataTask(with: request.asURLRequest()) { [weak self] data, response, error in
             DispatchQueue.main.async {
-                guard let self = self else { return }
+                guard let _ = self else { return }
                 guard let httpResponse = response as? HTTPURLResponse else {
                     completion(.failure(ServiceError.noHttpResponse))
                     return
@@ -36,10 +36,10 @@ final class ServiceLayer {
                         completion(.success(EmptyResponse() as! T.Response))
                     } else {
                         do{
-                            let baseResponse = try decoder.decode(APIBaseResponse<T.Response>.self, from: data)
-                            completion(.success(baseResponse.data))
+                            let baseResponse = try decoder.decode(T.Response.self, from: data)
+                            completion(.success(baseResponse))
                         }catch {
-                            print(response?.url?.absoluteString)
+                            print(response?.url?.absoluteString ?? "Last URL")
                             print("Decoding Error --> \(T.Response.self)")
                             print(error)
                             completion(.failure(ServiceError.decoding(error)))

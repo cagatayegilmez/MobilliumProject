@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		525B6ADE282FEE400097E68F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6ADD282FEE400097E68F /* AppDelegate.swift */; };
-		525B6AE0282FEE400097E68F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6ADF282FEE400097E68F /* SceneDelegate.swift */; };
-		525B6AE5282FEE400097E68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525B6AE3282FEE400097E68F /* Main.storyboard */; };
 		525B6AE7282FEE410097E68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525B6AE6282FEE410097E68F /* Assets.xcassets */; };
 		525B6AEA282FEE410097E68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525B6AE8282FEE410097E68F /* LaunchScreen.storyboard */; };
 		525B6AF5282FEE410097E68F /* Mobillium_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6AF4282FEE410097E68F /* Mobillium_ProjectTests.swift */; };
@@ -27,6 +25,20 @@
 		525B6B27283049A60097E68F /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B26283049A60097E68F /* MovieDetailModel.swift */; };
 		525B6B2928304BB20097E68F /* SimilarMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B2828304BB20097E68F /* SimilarMoviesModel.swift */; };
 		525B6B2B283053F20097E68F /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B2A283053F20097E68F /* SearchModel.swift */; };
+		525B6B3328305EB40097E68F /* HomeContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B2E28305EB40097E68F /* HomeContracts.swift */; };
+		525B6B3428305EB40097E68F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B2F28305EB40097E68F /* HomeViewController.swift */; };
+		525B6B3528305EB40097E68F /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B3028305EB40097E68F /* HomeBuilder.swift */; };
+		525B6B3628305EB40097E68F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B3128305EB40097E68F /* HomeView.swift */; };
+		525B6B3728305EB40097E68F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B3228305EB40097E68F /* HomeViewModel.swift */; };
+		525B6B3928306A0E0097E68F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B3828306A0E0097E68F /* NavigationController.swift */; };
+		525B6B3E283076890097E68F /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B6B3D283076890097E68F /* CarouselView.swift */; };
+		52D8FA312830C95A00C507C6 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA302830C95A00C507C6 /* HomeTableViewCell.swift */; };
+		52D8FA382830E65600C507C6 /* MovieDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA332830E65600C507C6 /* MovieDetailContracts.swift */; };
+		52D8FA392830E65600C507C6 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA342830E65600C507C6 /* MovieDetailViewController.swift */; };
+		52D8FA3A2830E65600C507C6 /* MovieDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA352830E65600C507C6 /* MovieDetailBuilder.swift */; };
+		52D8FA3B2830E65600C507C6 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA362830E65600C507C6 /* MovieDetailView.swift */; };
+		52D8FA3C2830E65600C507C6 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA372830E65600C507C6 /* MovieDetailViewModel.swift */; };
+		52D8FA3E2830FFDB00C507C6 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8FA3D2830FFDB00C507C6 /* CarouselCollectionViewCell.swift */; };
 		5F254078E1ABA1F0062BE6A6 /* Pods_Mobillium_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD7C5C3C8D10D9134CC5B34 /* Pods_Mobillium_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +63,6 @@
 		1B2BFE3C1D85C9405D0D6566 /* Pods-Mobillium Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillium Project.debug.xcconfig"; path = "Target Support Files/Pods-Mobillium Project/Pods-Mobillium Project.debug.xcconfig"; sourceTree = "<group>"; };
 		525B6ADA282FEE400097E68F /* Mobillium Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobillium Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525B6ADD282FEE400097E68F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		525B6ADF282FEE400097E68F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		525B6AE4282FEE400097E68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		525B6AE6282FEE410097E68F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525B6AE9282FEE410097E68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525B6AEB282FEE410097E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +83,20 @@
 		525B6B26283049A60097E68F /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
 		525B6B2828304BB20097E68F /* SimilarMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarMoviesModel.swift; sourceTree = "<group>"; };
 		525B6B2A283053F20097E68F /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		525B6B2E28305EB40097E68F /* HomeContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContracts.swift; sourceTree = "<group>"; };
+		525B6B2F28305EB40097E68F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		525B6B3028305EB40097E68F /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		525B6B3128305EB40097E68F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		525B6B3228305EB40097E68F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		525B6B3828306A0E0097E68F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		525B6B3D283076890097E68F /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		52D8FA302830C95A00C507C6 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		52D8FA332830E65600C507C6 /* MovieDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailContracts.swift; sourceTree = "<group>"; };
+		52D8FA342830E65600C507C6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		52D8FA352830E65600C507C6 /* MovieDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailBuilder.swift; sourceTree = "<group>"; };
+		52D8FA362830E65600C507C6 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		52D8FA372830E65600C507C6 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		52D8FA3D2830FFDB00C507C6 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		5AD7C5C3C8D10D9134CC5B34 /* Pods_Mobillium_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobillium_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF75578C021CAA594FCD43D /* Pods-Mobillium Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillium Project.release.xcconfig"; path = "Target Support Files/Pods-Mobillium Project/Pods-Mobillium Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,11 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				525B6ADD282FEE400097E68F /* AppDelegate.swift */,
-				525B6ADF282FEE400097E68F /* SceneDelegate.swift */,
-				525B6AE3282FEE400097E68F /* Main.storyboard */,
 				525B6AE6282FEE410097E68F /* Assets.xcassets */,
-				525B6AE8282FEE410097E68F /* LaunchScreen.storyboard */,
 				525B6AEB282FEE410097E68F /* Info.plist */,
+				525B6B2C28305ABA0097E68F /* Scenes */,
 				525B6B12283026990097E68F /* API */,
 				525B6B0D283021DD0097E68F /* Extensions */,
 			);
@@ -161,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				525B6B10283024800097E68F /* ProjectExtensions.swift */,
+				525B6B3828306A0E0097E68F /* NavigationController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -205,6 +228,51 @@
 				525B6B2A283053F20097E68F /* SearchModel.swift */,
 			);
 			path = Responses;
+			sourceTree = "<group>";
+		};
+		525B6B2C28305ABA0097E68F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B2D28305EA40097E68F /* Home */,
+				52D8FA322830E63300C507C6 /* MovieDetail */,
+				525B6AE8282FEE410097E68F /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		525B6B2D28305EA40097E68F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				525B6B2E28305EB40097E68F /* HomeContracts.swift */,
+				525B6B2F28305EB40097E68F /* HomeViewController.swift */,
+				525B6B3028305EB40097E68F /* HomeBuilder.swift */,
+				525B6B3128305EB40097E68F /* HomeView.swift */,
+				525B6B3228305EB40097E68F /* HomeViewModel.swift */,
+				525B6B3A283070270097E68F /* CustomViews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		525B6B3A283070270097E68F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				52D8FA302830C95A00C507C6 /* HomeTableViewCell.swift */,
+				525B6B3D283076890097E68F /* CarouselView.swift */,
+				52D8FA3D2830FFDB00C507C6 /* CarouselCollectionViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		52D8FA322830E63300C507C6 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				52D8FA332830E65600C507C6 /* MovieDetailContracts.swift */,
+				52D8FA342830E65600C507C6 /* MovieDetailViewController.swift */,
+				52D8FA352830E65600C507C6 /* MovieDetailBuilder.swift */,
+				52D8FA362830E65600C507C6 /* MovieDetailView.swift */,
+				52D8FA372830E65600C507C6 /* MovieDetailViewModel.swift */,
+			);
+			path = MovieDetail;
 			sourceTree = "<group>";
 		};
 		5BA6E79AF9AEAC70AF036AE2 /* Frameworks */ = {
@@ -332,7 +400,6 @@
 			files = (
 				525B6AEA282FEE410097E68F /* LaunchScreen.storyboard in Resources */,
 				525B6AE7282FEE410097E68F /* Assets.xcassets in Resources */,
-				525B6AE5282FEE400097E68F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +466,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D8FA3E2830FFDB00C507C6 /* CarouselCollectionViewCell.swift in Sources */,
+				525B6B3728305EB40097E68F /* HomeViewModel.swift in Sources */,
+				525B6B3328305EB40097E68F /* HomeContracts.swift in Sources */,
+				52D8FA382830E65600C507C6 /* MovieDetailContracts.swift in Sources */,
+				52D8FA392830E65600C507C6 /* MovieDetailViewController.swift in Sources */,
 				525B6B25283045C70097E68F /* MovieModel.swift in Sources */,
+				525B6B3E283076890097E68F /* CarouselView.swift in Sources */,
 				525B6B2928304BB20097E68F /* SimilarMoviesModel.swift in Sources */,
 				525B6B27283049A60097E68F /* MovieDetailModel.swift in Sources */,
 				525B6B17283028F20097E68F /* ServiceLayer.swift in Sources */,
@@ -407,11 +480,18 @@
 				525B6ADE282FEE400097E68F /* AppDelegate.swift in Sources */,
 				525B6B222830453A0097E68F /* GetSimilarMoviesRequest.swift in Sources */,
 				525B6B11283024800097E68F /* ProjectExtensions.swift in Sources */,
+				525B6B3628305EB40097E68F /* HomeView.swift in Sources */,
 				525B6B15283027F10097E68F /* ApiRequest.swift in Sources */,
+				52D8FA312830C95A00C507C6 /* HomeTableViewCell.swift in Sources */,
+				52D8FA3C2830E65600C507C6 /* MovieDetailViewModel.swift in Sources */,
 				525B6B1A283044C00097E68F /* GetNowPlayingListRequest.swift in Sources */,
+				525B6B3428305EB40097E68F /* HomeViewController.swift in Sources */,
 				525B6B1C283044E10097E68F /* GetUpcomingListRequest.swift in Sources */,
+				52D8FA3B2830E65600C507C6 /* MovieDetailView.swift in Sources */,
+				52D8FA3A2830E65600C507C6 /* MovieDetailBuilder.swift in Sources */,
 				525B6B2B283053F20097E68F /* SearchModel.swift in Sources */,
-				525B6AE0282FEE400097E68F /* SceneDelegate.swift in Sources */,
+				525B6B3928306A0E0097E68F /* NavigationController.swift in Sources */,
+				525B6B3528305EB40097E68F /* HomeBuilder.swift in Sources */,
 				525B6B20283045190097E68F /* GetMovieDetailRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,14 +529,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		525B6AE3282FEE400097E68F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				525B6AE4282FEE400097E68F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		525B6AE8282FEE410097E68F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -596,11 +668,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mobillium Project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mobillium Project";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,11 +700,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mobillium Project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mobillium Project";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

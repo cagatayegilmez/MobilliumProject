@@ -15,7 +15,7 @@ struct GetMovieDetailRequest: APIRequest {
     
     let method: HTTPMethodType = .get
     
-    var path: String { "movie/\(String(describing: movieId))" }
+    var path: String { "movie/\(String(describing: movieId ?? 0))" }
     
     var queryParameters: [URLQueryItem] {
         return [URLQueryItem.init(name: "api_key", value: Environment.apiKey)]
